@@ -121,13 +121,15 @@ img {
 .slogan {
     background-color: #2E2F42;
     width: 1440px;
+    height: 800px;
+    margin: 0 auto;
     padding-left: 472px;
     padding-top: 188px;
     padding-bottom: 188px;
     align-items: center;
-    background-image: url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
     background-repeat: no-repeat;
-    background-size: 1440px;
+    background-size: cover;
     background-position: center;
 
 }
