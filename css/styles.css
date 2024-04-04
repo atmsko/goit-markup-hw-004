@@ -110,7 +110,8 @@ img {
     color: #404bbf;
 }
 
-.nav-link-studio::after {
+.nav-link-studio:hover::after,
+.nav-link-studio:focus::after {
     content: '';
     position: absolute;
     left: 0;
