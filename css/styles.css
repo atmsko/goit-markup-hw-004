@@ -84,8 +84,7 @@ img {
 .nav-list {
     display: flex;
     gap: 40px;
-    position: relative;
-    color: #404bbf;
+  
 } 
 .nav-link { 
     color: #2E2F42; 
@@ -97,9 +96,10 @@ img {
     padding-top: 24px;
   padding-bottom: 24px;
   display: flex;
+    position: relative;
+        color: #404bbf;
 } 
-.nav-link:hover::after,
-.nav-link:focus::after {
+.nav-link::after {
     content: '';
     position: absolute;
     left: 0;
