@@ -292,7 +292,7 @@ img {
 .elipse {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .elipse-link {
     width: 100%;
@@ -303,6 +303,7 @@ img {
     align-items: center;
     justify-content: center;
     /* fill: transparent; */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .elipse-link:hover, .elipse-link:focus {
     background-color: #404bbf;
