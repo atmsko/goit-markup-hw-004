@@ -97,9 +97,9 @@ img {
   padding-bottom: 24px;
   display: flex;
     position: relative;
-        color: #404bbf;
+        /* color: #404bbf; */
 } 
-.nav-link::after {
+.nav-link:hover::after, .nav-link:focus::after {
     content: '';
     position: absolute;
     left: 0;
