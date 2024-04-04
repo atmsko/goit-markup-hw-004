@@ -83,25 +83,34 @@ img {
 }  
 .nav-list {
     display: flex;
-    gap: 40px;
-    color: #2E2F42;
-  
+    gap: 40px;  
 } 
+
 .nav-link { 
- 
+    color: #2E2F42;
     font-size: 16px; 
     font-weight: 500; 
     line-height: 1.5; 
     letter-spacing: 0.02em;
     display: block; 
     padding-top: 24px;
-  padding-bottom: 24px;
+    padding-bottom: 24px;
   /* display: flex; */
-    position: relative;
-        color: #404bbf;
+   
 } 
-.nav-link:hover::after, 
-.nav-link:focus::after {
+.nav-link-studio {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+    color: #404bbf;
+}
+
+.nav-link-studio::after {
     content: '';
     position: absolute;
     left: 0;
