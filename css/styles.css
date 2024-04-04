@@ -99,7 +99,8 @@ img {
     position: relative;
         /* color: #404bbf; */
 } 
-.nav-link:hover::after, .nav-link:focus::after {
+.nav-link:hover::after, 
+.nav-link:focus::after {
     content: '';
     position: absolute;
     left: 0;
