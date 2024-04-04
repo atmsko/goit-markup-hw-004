@@ -293,7 +293,7 @@ img {
     width: 40px;
     height: 40px;
 }
-.eclipse-link {
+.elipse-link {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -301,6 +301,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* fill: transparent; */
 }
 .elipse-link:hover, .elipse-link:focus {
     background-color: #404bbf;
