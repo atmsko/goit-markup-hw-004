@@ -93,6 +93,11 @@ img {
   padding-bottom: 24px;
   display: flex;
 } 
+.nav-link::after {
+    width: 100px;
+    height: 2px; 
+    background-color: #ec0505;
+}
 .nav-link:hover, .nav-link:focus { 
     color: #404BBF; 
 }
@@ -120,7 +125,7 @@ img {
 }
 .slogan {
     background-color: #2E2F42;
-    width: 1440px;
+    max-width: 1440px;
     height: 800px;
     margin: 0 auto;
     padding-left: 472px;
@@ -158,10 +163,19 @@ img {
     cursor: pointer;
     align-items: center;
     margin-left: 164px;
+    transition-duration: 250ms ;
 }
-.slogan-bt:hover, .slogan-bt:focus {
-    background-color: #404BBF;
-}
+/* .slogan-bt:hover, .slogan-bt:focus  */
+/* .slogan-bt::after
+{
+    /* background-color: #404BBF; */
+    /* content: ""; */
+/* width: 100px; */
+    /* height: 2px; */
+    /* background-color: #ec0505;
+
+   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+} */ */
 .features {
     background-color: #ffffff;
     padding-top: 120px;
