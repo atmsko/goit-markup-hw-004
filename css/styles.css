@@ -429,8 +429,21 @@ img {
     display: flex;
     gap: 16px;
 }
-.footer-social-link {
+.footer-elipse {
     width: 40px;
     height: 40px;
-    
+}
+.footer-elipse-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* fill: transparent; */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-elipse-link:hover, .footer-elipse-link:focus {
+    background-color: #31d0aa;
 }
