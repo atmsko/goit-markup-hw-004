@@ -390,6 +390,9 @@ img {
     display: flex;
     align-items: baseline;
 }
+.footer-item {
+    margin-right: 120px;
+}
 .footer-logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;;
@@ -409,4 +412,25 @@ img {
     line-height: 1.5 ;
     letter-spacing: 0.02em ;
     max-width: 264px;
+}
+.footer-social {
+
+}
+
+.footer-social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+}
+.footer-social-link {
+    width: 40px;
+    height: 40px;
+    
 }
