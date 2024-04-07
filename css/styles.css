@@ -385,7 +385,10 @@ img {
         /* padding-bottom: 188px; */
         padding-top: 100px;
         padding-bottom: 100px;
-        display: flex;
+}
+.footer-container {
+    display: flex;
+    align-items: baseline;
 }
 .footer-logo {
     color: #4D5AE5;
